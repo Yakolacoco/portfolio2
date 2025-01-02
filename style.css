@@ -837,6 +837,11 @@ span {
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
+
+    }
+
+    .photo { 
+        display: none;
     }
 }
 
@@ -855,6 +860,10 @@ span {
 
     .footer {
         padding: 2rem 4%;
+    }
+
+    .photo { 
+        display: none;
     }
 }
 
@@ -921,7 +930,11 @@ span {
         pointer-events: none;
         background: var(--bg-color);
         opacity: .6;
-    }  
+    } 
+
+    .photo { 
+        display: none;
+    }
 }
 
 @media (max-width: 520px) {
@@ -942,6 +955,10 @@ span {
     width: 38px;
     height: 38px;
   }
+
+  .photo { 
+    display: none;
+}
 }
 
 @media (max-width: 462px) {
@@ -965,6 +982,10 @@ span {
         margin-top: 2rem;
         text-align: center;
     }
+
+    .photo { 
+        display: none;
+    }
 }
 
 @media (max-width: 371px) {
@@ -981,6 +1002,10 @@ span {
 
     .home-content h1 {
         font-size: 5rem;
+    }
+
+    .photo { 
+        display: none;
     }
 }
 
@@ -1293,6 +1318,9 @@ span {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
+
+
 
 
 
